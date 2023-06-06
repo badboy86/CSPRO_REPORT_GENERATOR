@@ -1,0 +1,52 @@
+		div {
+            direction: rtl;			
+			
+        }
+		
+        tr:nth-child(even) {
+            background-color: #eee;
+        }
+
+        tr:nth-child(odd) {
+             background-color: white !important;
+        }
+      
+
+        th, td {
+            max-width: 200px;            
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        dd {
+            font-weight: 600;
+            color: #0366d6;
+            background: linear-gradient(45deg, ghostwhite, transparent);
+            padding-left: 30px;
+            margin-bottom: 3px;
+            min-height: 20px;
+        }
+
+        dt, dd, h2, h1 {
+            text-align: right;
+            font-weight: 600;
+            margin: 0px;
+        }
+
+        h3 {
+            text-align: right;
+            color: #931314;
+        }
+
+        .card-title {
+            float: right;
+        }
+
+        .card-header > .card-tools {
+            float: left;
+        }
+
+        .container, .container-sm, .container-md, .container-lg, .container-xl {
+            max-width: 95%;
+        }
